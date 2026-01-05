@@ -44,14 +44,21 @@ This project demonstrates how to:
 
 ## 📂 Project Structure
 src/main/java
-│
+
 ├── config → Security configuration & JWT setup
+
 ├── controller → REST controllers (Login & Signup)
+
 ├── service → Business logic
+
 ├── repository → Database repositories
+
 ├── model → Entity classes
+
 ├── dto → Request & Response DTOs
+
 ├── filter → JWT authentication filter
+
 └── util → JWT utility class
 
 ## 🔐 Authentication Flow
@@ -63,6 +70,13 @@ src/main/java
 5. Client stores the token
 6. Client sends token in every request header
 7. JWT filter validates token before allowing access
+
+ JWT Generation
+
+   <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/a0ce9f31-6e77-482a-8b55-eb8a3bef1bdf" />
+   
+
+
 
 ## ▶️ Steps to Run the Project Locally
 
