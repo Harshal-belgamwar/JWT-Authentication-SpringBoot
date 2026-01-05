@@ -69,13 +69,17 @@ src/main/java
 1. Install required software on your system: Java JDK 17 or higher, Maven, MySQL (or H2), Git, Postman, and any IDE such as IntelliJ IDEA, Eclipse, or VS Code.
 
 2. Clone the GitHub repository using the command:
-git clone https://github.com/Harshal-belgamwar/JWT-Authentication-SpringBoot.git
+   
+  git clone https://github.com/Harshal-belgamwar/JWT-Authentication-SpringBoot.git
 
 4. Navigate into the project directory:
-cd JWT-Authentication-SpringBoot
+   
+  cd JWT-Authentication-SpringBoot
 
-5.Build the project using Maven:
-mvn clean install
+5. Build the project using Maven:
 
-6.Run the Spring Boot application:
-mvn spring-boot:run
+  mvn clean install
+
+6. Run the Spring Boot application:
+
+  mvn spring-boot:run
